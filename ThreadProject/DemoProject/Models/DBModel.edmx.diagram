@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0dd995da37c4467a9fc304200c071ac9" Name="Diagram1">
+        <EntityTypeShape EntityType="DemoDB.Brand" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDB.Category" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDB.Order" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDB.Product" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDB.Role" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDB.Stock" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDB.sysdiagram" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDB.User" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="DemoDB.FK__Brands__Category__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDB.FK_Products_Brands" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDB.FK__Products__Catego__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDB.FK_Orders_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDB.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDB.FK_Stocks_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
